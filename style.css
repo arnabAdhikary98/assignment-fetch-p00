@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    padding: 0;
+    min-height: 100svh;
+}
+
+#main-container{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    padding-left: 20px;
+}
+
+#main-container>div{
+    height: auto;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    justify-content: space-between;
+    padding-left: 5px;
+    padding-right: 30px;
+    margin-top: 10px;
+    box-shadow: 1px 2px 5px 1px rgb(88, 58, 58);
+
+}
+
+.content-div>div{
+    border: 1px solid black;
+    height: 15px;
+    width: 15px;
+    margin-top: 20px;
+}
