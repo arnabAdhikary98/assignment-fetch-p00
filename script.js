@@ -11,7 +11,9 @@ function showData(arr){
         div02.setAttribute('class', 'check-box')
 
         if(ele.completed === true){
-            div02.style.backgroundColor = "grey"
+            div02.innerText = '☑️'
+            div02.style.backgroundColor = "blue"
+            
         }
 
         div01.append(title, div02)
